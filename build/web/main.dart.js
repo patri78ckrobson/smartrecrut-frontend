@@ -80759,8 +80759,8 @@ $1(a){return new A.iF($.ai())},
 $S:479}
 A.a6O.prototype={
 $1(a){var s="published",r=t.RS,q=t.Qh,p=new A.oS(A.b([],r),A.b([],q),$.ai())
-p.a=A.b([new A.lN("D\xe9veloppeur Full Stack","Nous recherchons un d\xe9veloppeur Full Stack exp\xe9riment\xe9 pour rejoindre notre \xe9quipe.","Informatique","Paris","CDI",s),new A.lN("Responsable RH","Poste de responsable des ressources humaines pour g\xe9rer le recrutement et la formation.","Ressources Humaines","Lyon","CDI",s),new A.lN("Chef de Projet Digital","Gestion de projets digitaux et coordination des \xe9quipes techniques.","Marketing","Bordeaux","CDD","draft")],r)
-p.b=A.b([new A.nt("Jean Dupont","jean.dupont@example.com",85.5,"pre_selected"),new A.nt("Marie Martin","marie.martin@example.com",92,"interview"),new A.nt("Pierre Durand","pierre.durand@example.com",78.3,"received"),new A.nt("Sophie Lefebvre","sophie.lefebvre@example.com",88.7,"evaluation")],q)
+p.a=A.b([new A.lN("D\xe9veloppeur Full Stack","Nous recherchons un d\xe9veloppeur Full Stack exp\xe9riment\xe9 pour rejoindre notre \xe9quipe.","Informatique","Antananarivo","CDI",s),new A.lN("Responsable RH","Poste de responsable des ressources humaines pour g\xe9rer le recrutement et la formation.","Ressources Humaines","Toamasina","CDI",s),new A.lN("Chef de Projet Digital","Gestion de projets digitaux et coordination des \xe9quipes techniques.","Marketing","Antsiranana","CDD","draft")],r)
+p.b=A.b([new A.nt("RAKOTO Dupont","rakoto.dupont@example.com",85.5,"pre_selected"),new A.nt("RABE Martin","rabe.martin@example.com",92,"interview"),new A.nt("RAJAO Huges ","rajao.huges@example.com",78.3,"received"),new A.nt("RANDRIA Solo","randria.solo@example.com",88.7,"evaluation")],q)
 return p},
 $S:480}
 A.a6P.prototype={
