@@ -28,9 +28,6 @@ jobs:
       - name: Build web
         run: flutter build web --release --web-renderer html
 
-      - name: Copy vercel.json to build output
-        run: cp vercel.json build/web/vercel.json
-      
       - name: Deploy to Vercel
         uses: amondnet/vercel-action@v25
         with:
@@ -38,5 +35,4 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
-          working-directory: ./build/web
-          vercel-args: '--prod'
+          vercel-args: '--prod --confirm'
