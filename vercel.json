@@ -1,11 +1,4 @@
 {
-  "version": 2,
-  "public": true,
-  "cleanUrls": true,
-  "trailingSlash": false,
-  "github": {
-    "enabled": false
-  },
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
