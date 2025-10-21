@@ -53,7 +53,8 @@ class RecruitmentProvider with ChangeNotifier {
       JobOffer(
         id: '1',
         title: 'Développeur Full Stack',
-        description: 'Nous recherchons un développeur Full Stack expérimenté pour rejoindre notre équipe.',
+        description:
+            'Nous recherchons un développeur Full Stack expérimenté pour rejoindre notre équipe.',
         department: 'Informatique',
         location: 'Antananarivo',
         contractType: 'CDI',
@@ -62,7 +63,8 @@ class RecruitmentProvider with ChangeNotifier {
       JobOffer(
         id: '2',
         title: 'Responsable RH',
-        description: 'Poste de responsable des ressources humaines pour gérer le recrutement et la formation.',
+        description:
+            'Poste de responsable des ressources humaines pour gérer le recrutement et la formation.',
         department: 'Ressources Humaines',
         location: 'Toamasina',
         contractType: 'CDI',
@@ -71,7 +73,8 @@ class RecruitmentProvider with ChangeNotifier {
       JobOffer(
         id: '3',
         title: 'Chef de Projet Digital',
-        description: 'Gestion de projets digitaux et coordination des équipes techniques.',
+        description:
+            'Gestion de projets digitaux et coordination des équipes techniques.',
         department: 'Marketing',
         location: 'Antsiranana',
         contractType: 'CDD',
@@ -89,8 +92,8 @@ class RecruitmentProvider with ChangeNotifier {
       ),
       Candidate(
         id: '2',
-        name: 'RABE Martin',
-        email: 'rabe.martin@example.com',
+        name: 'RABE Martino',
+        email: 'rabe.martino@example.com',
         aiScore: 92.0,
         status: 'interview',
       ),
