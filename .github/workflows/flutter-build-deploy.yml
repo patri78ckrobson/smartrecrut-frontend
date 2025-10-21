@@ -27,6 +27,9 @@ jobs:
         
       - name: Build web
         run: flutter build web --release --web-renderer html
+
+      - name: Copy vercel.json to build output
+        run: cp vercel.json build/web/vercel.json
       
       - name: Deploy to Vercel
         uses: amondnet/vercel-action@v25
